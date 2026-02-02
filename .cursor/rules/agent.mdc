@@ -1,0 +1,147 @@
+---
+alwaysApply: true
+---
+
+## Core Principles
+
+### Code Quality & Standards
+- Write clean, readable, and maintainable code
+- Follow language-specific conventions and best practices
+- Use meaningful variable and function names
+- Add comments for complex logic, not obvious code
+- Implement proper error handling and validation
+- Write modular, reusable components
+
+### Security First
+- Never expose sensitive data (API keys, passwords, tokens)
+- Validate all inputs and sanitize outputs
+- Use secure authentication and authorization patterns
+- Follow OWASP security guidelines
+- Implement proper data encryption where needed
+
+### Performance & Optimization
+- Write efficient algorithms and data structures
+- Minimize resource usage (memory, CPU, network)
+- Use appropriate caching strategies
+- Optimize database queries and API calls
+- Consider scalability from the start
+
+## Development Workflow
+
+### Planning & Analysis
+- Understand requirements thoroughly before coding
+- Break down complex tasks into smaller, manageable pieces
+- Consider edge cases and error scenarios
+- Plan for testing and validation
+- Document architectural decisions
+
+### Implementation
+- Start with minimal viable implementation
+- Use version control effectively with meaningful commits
+- Write code incrementally and test frequently
+- Refactor when necessary to improve code quality
+- Follow DRY (Don't Repeat Yourself) principle
+
+### Testing & Validation
+- Write unit tests for critical functionality
+- Test edge cases and error conditions
+- Validate inputs and outputs
+- Use appropriate testing frameworks
+- Ensure code coverage for important paths
+
+## Code Structure & Organization
+
+### File Organization
+- Use clear, descriptive file and folder names
+- Group related functionality together
+- Separate concerns (models, views, controllers, utilities)
+- Keep files focused and reasonably sized
+- Use consistent naming conventions
+
+### Documentation
+- Write clear README files with setup instructions
+- Document API endpoints and data structures
+- Include code examples for complex functionality
+- Keep documentation up-to-date with code changes
+- Use inline documentation for public interfaces
+
+## Technology Guidelines
+
+### Language-Specific Rules
+- **JavaScript/TypeScript**: Use modern ES6+ features, prefer const/let over var, use TypeScript for type safety
+- **Python**: Follow PEP 8 style guide, use virtual environments, prefer list comprehensions when appropriate
+- **Java**: Follow Oracle coding conventions, use proper exception handling, leverage modern Java features
+- **C#**: Follow Microsoft coding conventions, use LINQ appropriately, implement proper disposal patterns
+
+### Framework & Library Usage
+- Choose well-maintained, popular libraries
+- Keep dependencies minimal and up-to-date
+- Understand the libraries you use, don't just copy-paste
+- Consider licensing implications
+- Use package managers effectively
+
+## Collaboration & Communication
+
+### Code Reviews
+- Write self-reviewing code that's easy to understand
+- Provide context in pull request descriptions
+- Be open to feedback and suggestions
+- Explain complex decisions in comments or documentation
+
+### Problem Solving
+- Research existing solutions before implementing from scratch
+- Ask clarifying questions when requirements are unclear
+- Provide multiple solution options when appropriate
+- Consider long-term maintenance implications
+
+## Continuous Improvement
+
+### Learning & Adaptation
+- Stay updated with technology trends and best practices
+- Learn from mistakes and improve processes
+- Seek feedback and act on it constructively
+- Share knowledge and help others learn
+
+### Monitoring & Maintenance
+- Monitor application performance and errors
+- Plan for regular updates and maintenance
+- Keep dependencies secure and up-to-date
+- Document known issues and their solutions
+
+## Specific Constraints
+
+### Resource Management
+- Be mindful of computational resources
+- Optimize for the target deployment environment
+- Consider bandwidth and storage limitations
+- Plan for graceful degradation under load
+
+### Accessibility & Usability
+- Design for accessibility (WCAG guidelines)
+- Consider different user contexts and abilities
+- Provide clear error messages and user feedback
+- Test across different devices and browsers
+
+### Data Handling
+- Respect user privacy and data protection laws
+- Implement proper data backup and recovery
+- Use appropriate data validation and sanitization
+- Consider data retention and deletion policies
+
+## Emergency Protocols
+
+### Error Handling
+- Fail gracefully with meaningful error messages
+- Log errors appropriately for debugging
+- Implement circuit breakers for external dependencies
+- Have rollback plans for deployments
+
+### Incident Response
+- Document troubleshooting procedures
+- Maintain monitoring and alerting systems
+- Have clear escalation procedures
+- Conduct post-incident reviews and improvements
+
+---
+
+*These rules should be applied consistently across all development activities to ensure high-quality, maintainable, and secure software solutions.*
