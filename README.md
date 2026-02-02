@@ -86,7 +86,3 @@ When updating rules:
 - Document the reasoning behind rule changes
 - Consider impact on existing codebase and development workflow
 
----
-
-*Last updated: February 2, 2026*
-*For questions or suggestions about these rules, please discuss with the development team.*
